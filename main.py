@@ -10,7 +10,7 @@ def convert_jpeg_to_pdf(image_path, output_path):
     doc.build(story)
 
 # Пример использования
-jpeg_path = 'IMG_20230601_193154.jpg'
+jpeg_path = 'Bank account.jpg'
 pdf_path = 'output2.pdf'
 
 convert_jpeg_to_pdf(jpeg_path, pdf_path)
